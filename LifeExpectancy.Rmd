@@ -1,0 +1,7 @@
+---
+title: "Classwork_Week1"
+author: "Kingsley Ofoegbu"
+date: "8/25/2020"
+output: pdf_document
+---
+
