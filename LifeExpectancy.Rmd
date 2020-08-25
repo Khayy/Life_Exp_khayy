@@ -5,3 +5,18 @@ date: "8/25/2020"
 output: pdf_document
 ---
 
+# i have added some comments
+```{r}
+library(tidyverse)
+library(gapminder)
+
+gapminder_unfiltered %>%
+  group_by(year) %>%
+  filter(lifeExp== max(lifeExp)) %>%
+  ungroup() %>%
+  select(year, country, lifeExp) %>%
+  arrange(year) -> 
+  sumdat
+```
+
+
