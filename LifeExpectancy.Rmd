@@ -2,7 +2,9 @@
 title: "Classwork_Week1"
 author: "Kingsley Ofoegbu"
 date: "8/25/2020"
-output: pdf_document
+output:
+  html_document:
+    df_print: paged
 ---
 
 # i have added some comments
@@ -16,7 +18,7 @@ gapminder_unfiltered %>%
   ungroup() %>%
   select(year, country, lifeExp) %>%
   arrange(year) -> 
-  sumdat
+  sumdat 
 ```
 
 
